@@ -2099,6 +2099,7 @@ func loadK8sRKESystemImages() map[string]v3.RKESystemImages {
 			CoreDNS:                   m("coredns/coredns:1.6.5"),
 			CoreDNSAutoscaler:         m("gcr.io/google_containers/cluster-proportional-autoscaler:1.7.1"),
 			WindowsPodInfraContainer:  m("rancher/kubelet-pause:v0.1.3"),
+			Nodelocal:                 m("k8s.gcr.io/k8s-dns-node-cache:1.15.3"),
 		},
 		// k8s version from 2.1.x release with old rke-tools to allow upgrade from 2.1.x clusters
 		// without all clusters being restarted
