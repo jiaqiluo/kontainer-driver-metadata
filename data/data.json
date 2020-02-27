@@ -3879,7 +3879,7 @@
   "2.3.1": "v1.15.x",
   "2.3.2": "v1.15.x",
   "2.3.3": "v1.16.x",
-  "default": "v1.17.x"
+  "default": "v1.16.x"
  },
  "RKEDefaultK8sVersions": {
   "0.3": "v1.16.3-rancher1-1",
