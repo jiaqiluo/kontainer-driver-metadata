@@ -3300,7 +3300,7 @@ releases:
     featureVersions: *featureVersions-v1
   - version: v1.31.5+rke2r1
     minChannelServerVersion: v2.9.0-alpha1
-    maxChannelServerVersion: v2.11.99
+    maxChannelServerVersion: v2.12.99
     serverArgs: *serverArgs-v1-28-11-rke2r1
     agentArgs: *agentArgs-v1-28-11-rke2r1
     charts: &charts-v1-31-5-rke2r1
@@ -3350,7 +3350,7 @@ releases:
     featureVersions: *featureVersions-v1
   - version: v1.31.6+rke2r1
     minChannelServerVersion: v2.10.0-alpha1
-    maxChannelServerVersion: v2.11.99
+    maxChannelServerVersion: v2.12.99
     serverArgs: *serverArgs-v1-28-11-rke2r1
     agentArgs: *agentArgs-v1-28-11-rke2r1
     charts: &charts-v1-31-6-rke2r1
@@ -3388,7 +3388,7 @@ releases:
     featureVersions: *featureVersions-v1
   - version: v1.31.7+rke2r1
     minChannelServerVersion: v2.10.0-alpha1
-    maxChannelServerVersion: v2.11.99
+    maxChannelServerVersion: v2.12.99
     serverArgs: *serverArgs-v1-28-11-rke2r1
     agentArgs: *agentArgs-v1-28-11-rke2r1
     charts: &charts-v1-31-7-rke2r1
@@ -3667,7 +3667,7 @@ releases:
     featureVersions: *featureVersions-v1
   - version: v1.32.1+rke2r1
     minChannelServerVersion: v2.11.0-alpha1
-    maxChannelServerVersion: v2.11.99
+    maxChannelServerVersion: v2.12.99
     serverArgs: *serverArgs-v1-28-11-rke2r1
     agentArgs: *agentArgs-v1-28-11-rke2r1
     charts: &charts-v1-32-1-rke2r1
@@ -3684,7 +3684,7 @@ releases:
     featureVersions: *featureVersions-v1
   - version: v1.32.2+rke2r1
     minChannelServerVersion: v2.11.0-alpha1
-    maxChannelServerVersion: v2.11.99
+    maxChannelServerVersion: v2.12.99
     serverArgs: *serverArgs-v1-28-11-rke2r1
     agentArgs: *agentArgs-v1-28-11-rke2r1
     charts: &charts-v1-32-2-rke2r1
@@ -3722,7 +3722,7 @@ releases:
     featureVersions: *featureVersions-v1
   - version: v1.32.3+rke2r1
     minChannelServerVersion: v2.11.0-alpha1
-    maxChannelServerVersion: v2.11.99
+    maxChannelServerVersion: v2.12.99
     serverArgs: *serverArgs-v1-28-11-rke2r1
     agentArgs: *agentArgs-v1-28-11-rke2r1
     charts: &charts-v1-32-3-rke2r1
