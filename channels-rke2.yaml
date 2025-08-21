@@ -3061,7 +3061,7 @@ releases:
     featureVersions: *featureVersions-v1
   - version: v1.30.14+rke2r2
     minChannelServerVersion: v2.9.0-alpha1
-    maxChannelServerVersion: v2.11.99
+    maxChannelServerVersion: v2.12.99
     charts: &chartsv1-30-14-rke2r2
       <<: *chartsv1-30-14-rke2r1
       rke2-snapshot-controller-crd:
@@ -3091,10 +3091,10 @@ releases:
       rke2-ingress-nginx:
         repo: rancher-rke2-charts
         version: 4.12.401
-    serverArgs: &serverArgsv1-30-14-rke2r1
-      <<: *serverArgs-v1-28-11-rke2r1
-    agentArgs: &agentArgsv1-30-14-rke2r1
-      <<: *agentArgs-v1-28-11-rke2r1
+    serverArgs: &serverArgsv1-30-14-rke2r2
+      <<: *serverArgsv1-30-14-rke2r1
+    agentArgs: &agentArgsv1-30-14-rke2r2
+      <<: *agentArgsv1-30-14-rke2r1
     featureVersions: *featureVersions-v1
   - version: v1.31.0+rke2r1
     minChannelServerVersion: v2.9.0-alpha1
